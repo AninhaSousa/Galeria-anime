@@ -1,0 +1,92 @@
+body {
+    font-family: "Inconsolata", monospace;
+    color: #ffff;
+    margin: 0;
+    padding: 20px;
+    background-color:#190933 ;
+}
+#totoro{
+    justify-content: flex-start;
+    height: 6rem;
+    width: auto;
+}
+header {
+    text-align: center;
+    background-color: #251F47;
+    margin-top: 2rem;
+    border-radius: 2rem;
+}
+h1{
+    letter-spacing: 1.2rem;
+    word-spacing: 2rem;
+    justify-content: space-around;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #222A68;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #654597;
+    transition: 1.2s;
+}
+
+select {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.imagemContainer {
+    
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(auto-fit,minmax(220px,0.4fr));
+    gap: 2rem;
+    width: 90%;
+    margin: 10px auto;
+    
+}
+
+.img-item {
+    margin: 10px;
+    text-align: center;
+    min-width: 100%;
+    box-shadow: 0 0 20px rgb(152, 79, 204);
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.img-item img {
+    max-width: 150px;
+    border-radius: 10px;
+    transform: scale(1);
+}
+
+.favorite-btn,
+.remove-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 5px;
+}
+

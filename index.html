@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animes.Com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./ninja.png">
+</head>
+<body>
+
+    <header>
+      <img id="totoro" src="./pngwing.com.png" alt="">
+      <h1>.-Espacinho Otaku-.</h1>
+      <br>
+        <form>
+            <input type="text" placeholder="  Buscar anime...">
+            <select id="filtragem">
+              <option value="todo">Todos</option>
+              <option value="altaPontuacao">Prontuação 5+</option>
+              <option value="baixaPontuacao">Pontuação 5-</option>
+          </select>
+            <button type="submit">Pesquisar</button>
+      </form>
+      <br>
+      <button onclick="displayFavorites()">Ver Favoritos</button>
+      <br><br><br>
+    </header>
+    <main>
+        <div class="imagemContainer"></div>
+        <div id="animeDetalhe"></div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
